@@ -1,10 +1,9 @@
 """
 LLM-as-Judge evaluation framework — with an honest substitution.
 
-Zendesk's posting asks for "sophisticated evaluation logic... using
-cutting-edge LLM-as-Judge techniques to assess the quality of our AI's
-conversations at scale," iterated against human feedback until the
-automated score tracks human judgment.
+The task is sophisticated evaluation logic using LLM-as-Judge techniques
+to assess the quality of an AI's conversations at scale, iterated against
+human feedback until the automated score tracks human judgment.
 
 There is no Claude/OpenAI/Gemini API access in this build environment (no
 API key, no SDK, verified before writing this). Rather than fake a live

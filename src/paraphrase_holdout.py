@@ -4,10 +4,7 @@ quality tiers, using DIFFERENT wording than the templates in
 golden_dataset.py.
 
 Why this exists: the first version of `HeuristicJudge` scored 100%
-agreement against the golden dataset, which — per the same
-"suspicious perfection is a red flag" discipline used in every other
-project in this portfolio — was investigated rather than reported as a
-clean win. The judge's keyword markers were tuned against the exact
+agreement against the golden dataset, which — since a suspiciously perfect result is worth investigating — was checked rather than reported as a clean win. The judge's keyword markers were tuned against the exact
 phrasing the golden-dataset templates happen to use (e.g. "restarting
 your computer"), so a 100% score partly reflected memorizing that
 phrasing, not genuinely recognizing deflection vs. resolution vs.

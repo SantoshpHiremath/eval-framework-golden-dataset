@@ -1,12 +1,11 @@
 """
 Golden dataset generation for AI-agent conversation-quality evaluation.
 
-Models the task Zendesk's posting describes: "dive into real-world
-conversations to meticulously annotate and curate golden datasets... these
-high-quality, benchmark datasets will be the source of truth for training
-and testing our agents."
+Models the task of annotating and curating golden datasets of
+conversations: high-quality benchmark datasets that serve as the source of
+truth for training and testing agents.
 
-There is no real Zendesk (or any real company's) support-conversation data
+There is no real company support-conversation data
 available here, so this generates SYNTHETIC customer-support conversations
 between a user and an AI support agent, across several realistic quality
 tiers, and attaches a human-style annotation to each: a quality label

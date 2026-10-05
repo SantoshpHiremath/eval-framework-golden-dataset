@@ -1,8 +1,8 @@
 """
 Judge-vs-golden-label evaluation harness.
 
-This is the "compare automated evaluation scores with human feedback"
-loop the posting describes. It runs a Judge over every conversation in
+This is the loop of comparing automated evaluation scores with human
+feedback. It runs a Judge over every conversation in
 the golden dataset, compares its verdict to the human-style gold label,
 and reports:
 

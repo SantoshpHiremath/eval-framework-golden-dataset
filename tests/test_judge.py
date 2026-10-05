@@ -62,9 +62,7 @@ class TestGeneralization:
         This is the test that matters most in this file.
 
         The first version of HeuristicJudge scored 100% on the golden
-        dataset — which, following this portfolio's standing rule that a
-        suspiciously perfect result is a red flag to investigate rather
-        than a result to report, was checked against hand-written
+        dataset — which, since a suspiciously perfect result is worth investigating, was checked against hand-written
         paraphrases using different wording than the golden-set templates.
 
         It generalizes badly: agreement drops to 25% (2/8) on paraphrased
